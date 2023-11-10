@@ -1,0 +1,36 @@
+
+
+
+h2{
+    text-align: center;
+}
+
+.infor{
+    color:gray;
+}
+
+#img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 2;
+}
+
+
+.modal-container {
+    display: flex;
+}
+
+.modal-content {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.information {
+    width: 50%;
+    box-sizing: border-box;
+}
