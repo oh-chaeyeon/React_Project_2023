@@ -1,0 +1,32 @@
+/* IntroPage.css */
+  
+
+.centered-container {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    height: 10vh; /* 높이를 조절하여 페이지의 전체 높이로 설정하거나 필요에 따라 조정하세요. */
+  }
+
+  
+  ul {
+    cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능하다는 표시를 해줍니다. */
+  }
+
+  .emphasis-text {
+    font-weight: bold; /* 강조된 텍스트를 굵게 만듭니다. */
+    font-size: 1.5em; /* 글씨 크기를 조절합니다. 필요에 따라 조정하세요. */
+  }
+
+  
+  .tab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: absolute;
+    
+}

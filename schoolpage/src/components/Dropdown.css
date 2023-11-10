@@ -1,0 +1,25 @@
+/* Dropdown.css */
+
+ul {
+    position: absolute;
+    top: 120px; /* 원하는 높이로 조절하세요. 예를 들면 '50px'은 상단에서 50px 아래로 이동시킵니다. */
+    left: 50%;
+    transform: translateX(-50%);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* 디자인에 맞게 배경색을 설정하세요 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    z-index: 1; /* 드롭다운이 다른 요소 위에 나타나도록 하는 속성 */
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #f5f5f5; /* 호버 효과를 추가하세요 */
+  }
+  

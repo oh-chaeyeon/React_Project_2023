@@ -5,16 +5,26 @@ import {dataDummy} from '../dataDummy.js';
 import './JoinPage.css';
 import CheckBoxList from "../components/CheckBoxList.js";
 import Searching from "../components/Searching.js";
+import PopupModal from '../components/Modal.js';
 
 function JoinPage() {
     const [searchTerm, setSearchTerm] = useState('');
     const [isChecked, setIsChecked] = useState(false);
     const [filteredCrews, setFilteredCrews] = useState([]);
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedCrewName, setSelectedCrewName] = useState(null);
+
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
     };
 
+    const handleModal = (crewName) => {
+        setSelectedCrewName(crewName);
+        setModalOpen(!modalOpen); 
+    }
+
+   
     useEffect(() => {
         // 검색어가 비어 있을 때는 모든 동아리 정보를 출력합니다.
         let filteredData = dataDummy;
@@ -46,18 +56,24 @@ function JoinPage() {
                 {
                     filteredCrews.map((crew, index)=> {
                         return (
-                            <JoinBox
+                            <div key={index}>
+                            <JoinBox 
+                            
                                 key={index}
                                 crewName={crew.crewName}
                                 crewImg={crew.crewImg}
                                 join_date={crew.join_date}
+                                handleModal={() => handleModal(crew.crewName)}
+
                             />
+                            </div>
                         )
                     })
                 }
+               
             </div>
+            <PopupModal modalOpen={modalOpen} handleModal={handleModal} selectedCrewName={selectedCrewName}/>
         </>
-
     );
 }
 
