@@ -24,7 +24,6 @@ function JoinPage() {
         setModalOpen(!modalOpen); 
     }
 
-   
     useEffect(() => {
         // 검색어가 비어 있을 때는 모든 동아리 정보를 출력합니다.
         let filteredData = dataDummy;
@@ -47,7 +46,7 @@ function JoinPage() {
     return (
         <>
             <TopMenuBar/>
-            <div className="pageTitle">동아리가입</div>
+            <div className="pageTitle">동아리지원</div>
             <div className="middle">               
                 <Searching onSearch={handleSearch}/>
                 <CheckBoxList isChecked={isChecked} setIsChecked={setIsChecked}/>
@@ -70,7 +69,6 @@ function JoinPage() {
                         )
                     })
                 }
-               
             </div>
             <PopupModal modalOpen={modalOpen} handleModal={handleModal} selectedCrewName={selectedCrewName}/>
         </>
