@@ -1,0 +1,80 @@
+.crew-container {
+    position: relative;
+    width: 25.5vw;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.img-slide-container {
+    position: relative;
+    width: 100%;
+}
+
+.crewImg {
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(247, 249, 250, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.img-slide-container:hover .overlay {
+    height: 100%;
+}
+
+.crewImg {
+    width: 100%;
+    height: 200px; /* Set a fixed height for the images */
+    display: block;
+}
+
+.text {
+    color: black; 
+    font-size: 17px;
+    font-family: 'YourFont'; /* 글꼴 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    text-align: center;
+}
+
+.instagram {
+    cursor: pointer;
+    width: 35px; 
+    height: 35px;  
+    margin-right: 5px; /* Instagram 로고와 Blog 로고 사이 간격 조절  */
+}
+.blog {
+    cursor: pointer;
+    width: 32px; 
+    height: 33px; 
+}
+
+
+
+.crewName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
