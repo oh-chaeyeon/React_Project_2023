@@ -1,0 +1,27 @@
+/* IntroPage.css */
+
+.centered-container {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  height: 10vh;
+}
+
+.content-container {
+  position: relative;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+ul {
+  cursor: pointer;
+}
+
+.emphasis-text {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Rest of your styles... */

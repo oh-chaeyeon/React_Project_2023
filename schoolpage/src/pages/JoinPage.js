@@ -23,7 +23,6 @@ function JoinPage() {
         setSelectedCrewName(crewName);
         setModalOpen(!modalOpen); 
     }
-
     useEffect(() => {
         // 검색어가 비어 있을 때는 모든 동아리 정보를 출력합니다.
         let filteredData = dataDummy;
@@ -69,6 +68,7 @@ function JoinPage() {
                         )
                     })
                 }
+               
             </div>
             <PopupModal modalOpen={modalOpen} handleModal={handleModal} selectedCrewName={selectedCrewName}/>
         </>
