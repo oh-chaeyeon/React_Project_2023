@@ -6,6 +6,7 @@ import './JoinPage.css';
 import CheckBoxList from "../components/CheckBoxList.js";
 import Searching from "../components/Searching.js";
 import PopupModal from '../components/Modal.js';
+import Filter from "../components/Filter.js";
 
 function JoinPage() {
     const [searchTerm, setSearchTerm] = useState('');
@@ -13,6 +14,11 @@ function JoinPage() {
     const [filteredCrews, setFilteredCrews] = useState([]);
     const [modalOpen, setModalOpen] = useState(false);
     const [selectedCrewName, setSelectedCrewName] = useState(null);
+    const [filters, setFilters] = useState({
+        교내동아리: false,
+        연합동아리: false,
+        소모임: false
+    });
 
 
     const handleSearch = (searchTerm) => {
@@ -39,17 +45,27 @@ function JoinPage() {
             filteredData = filteredData.filter((crew) => crew.joining);
         }
 
+        // Filter 컴포넌트의 체크박스 상태를 반영하여 필터링합니다.
+        const filterKeys = Object.keys(filters).filter(key => filters[key]);
+        if (filterKeys.length > 0) {
+            filteredData = filteredData.filter(crew =>
+            filterKeys.includes(crew.filter)
+            );
+        }
+
         setFilteredCrews(filteredData);
-    }, [searchTerm, isChecked]);
+    }, [searchTerm, isChecked, filters]);
 
     return (
         <>
             <TopMenuBar/>
-            <div className="pageTitle">동아리지원</div>
+            <div className="pageTitle">동아리 지원</div>
             <div className="middle">               
                 <Searching onSearch={handleSearch}/>
+                <Filter setFilters={setFilters}/>
                 <CheckBoxList isChecked={isChecked} setIsChecked={setIsChecked}/>
             </div>
+
             <div className="crews-container">
                 {
                     filteredCrews.map((crew, index)=> {
