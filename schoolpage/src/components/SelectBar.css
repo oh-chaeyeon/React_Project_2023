@@ -1,26 +1,27 @@
 /* SelectBar.css */
 
 .submenu {
-    z-index: 1;
+    z-index: 0; 
     display: flex;
     justify-content: center; 
-    width: 120px;
+    width: 200px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     transition: 0.5s;
     border-radius: 10px 10px 0px 0px;
+    
     text-align: center; 
-  
+    top: 300px;
 }
 
 .submenu.focused {
-    
     background-color: rgb(255, 255, 255);
-    color: rgb(21, 20, 20);
+    color: rgb(65, 105, 225); 
+    border: 2px solid black;
+
 }
 
 div.desc {
     text-align: center;
 }
-
 

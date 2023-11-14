@@ -1,19 +1,35 @@
 /* IntroPage.css */
 
+.banner-container {
+  position: relative;
+}
+
+.banner-image{
+  width:100%;
+  opacity: 0.5;
+  object-position: center;
+}
+
 .centered-container {
   font-size: 1.5em;
   display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 2;
-  height: 10vh;
+  z-index: 1;
+  height: 5vh;
+  margin-bottom: 50px; /* Adjust the margin-bottom as needed */
+
 }
 
 .content-container {
   position: relative;
-  margin-top: 20px; /* Adjust as needed */
-  z-index: 1;
+  margin-top: 300px; /* Adjust as needed */
+  z-index: 0;
+
 }
 
 ul {
@@ -25,4 +41,10 @@ ul {
   font-size: 1.5em;
 }
 
-/* Rest of your styles... */
+.intro-top-image-container {
+  width: 1600px;
+  height: 700px;
+  background-image: url('../images/slideImage2.jpg'); /* 이미지 경로에 맞게 수정 */
+  background-size: cover; 
+  background-color: rgba(17, 17, 17, 0.7); 
+}
