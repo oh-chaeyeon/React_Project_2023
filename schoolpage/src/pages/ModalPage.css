@@ -3,7 +3,9 @@
 
 h2{
     text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
 }
+
 
 .infor{
     color:gray;
@@ -15,13 +17,10 @@ h2{
     margin-top: 10px;
 }
 
-p {
-    line-height: 2;
-}
-
 
 .modal-container {
     display: flex;
+    
 }
 
 .modal-content {
@@ -30,8 +29,31 @@ p {
     box-sizing: border-box;
 }
 
+
+
 .information {
-    width: 50%;
+    width: 20%;
     box-sizing: border-box;
+    color:gray;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 50px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.join{
+    width: 50%;
+    line-height: 2;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+#explanation {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Gowun Dodum', sans-serif;
 }
 

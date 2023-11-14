@@ -12,6 +12,8 @@
     border: none; 
     cursor: pointer;
     border-radius: 4px;
+    white-space: nowrap;
+    width: 160px;
 }
 
 .dropdown-content {
