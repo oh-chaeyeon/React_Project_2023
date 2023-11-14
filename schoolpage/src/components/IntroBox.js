@@ -21,7 +21,7 @@ function IntroBox({ crewData }) {
                     </div>
                 </div>
             </div>
-            <div className="intro_crewName">{intro_crewName}</div>
+            <div className="intro-crewName">{intro_crewName}</div>
         </div>
     );
 }
