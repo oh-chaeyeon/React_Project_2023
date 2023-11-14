@@ -5,12 +5,18 @@ import doIt from './images/DoIt.png';
 import meetingNom from './images/미팅놈들.png';
 import teddyBear from './images/곰돌이.png';
 import cat from './images/고양이.png';
+import hotel from './images/hotel.jpg';
+import volunteer from './images/volunteer.jpg';
+import star from './images/star.jpg';
+
 
 export const dataDummy = [
     {
         filter: "교내동아리",
+        intro_crewName: "왕산악",
         crewName: "왕산악",
         crewImg: wangSanAk,
+        intro_crewImg: wangSanAk,
         join_date: "11월 21일 ~ 12월 5일",
         joining: false,
         info:"perform",//공연예술
@@ -25,8 +31,10 @@ export const dataDummy = [
     },
     {
         filter: "교내동아리",
+        intro_crewName: "들불",
         crewName: "들불",
         crewImg: deulBul,
+        intro_crewImg: deulBul,
         join_date: "11월 15일 ~ 11월 30일",
         joining: true,
         info:"art",//평면예술
@@ -41,8 +49,10 @@ export const dataDummy = [
     },
     {
         filter: "교내동아리",
+        intro_crewName: "민족예술학회",
         crewName: "민족예술학회",
         crewImg: artCrew,
+        intro_crewImg: artCrew,
         join_date: "11월 20일 ~ 12월 7일",
         joining: false,
         info:"academic",//학술
@@ -57,8 +67,10 @@ export const dataDummy = [
     },
     {
         filter: "교내동아리",
+        intro_crewName: "왕산악",
         crewName: "왕산악",
         crewImg: wangSanAk,
+        intro_crewImg: wangSanAk,
         join_date: "11월 21일 ~ 12월 5일",
         joining: false,
         info:"athletic",//체육
@@ -73,8 +85,10 @@ export const dataDummy = [
     },
     {
         filter: "교내동아리",
-        crewName: "들불",
+        intro_crewName: "C.C.C",
+        crewName: "C.C.C",
         crewImg: deulBul,
+        intro_crewImg: deulBul,
         join_date: "11월 15일 ~ 11월 30일",
         joining: true,
         info:"religion",//종교
@@ -89,8 +103,10 @@ export const dataDummy = [
     },
     {
         filter: "연합동아리",
+        intro_crewName: "DoIt",
         crewName: "DoIt",
         crewImg: doIt,
+        intro_crewImg: doIt,
         join_date: "11월 5일 ~ 11월 26일",
         joining: true,
         simple_intro:"웹 개발 위주의 스터디나 서비스 출시를 목표로 하는 동아리",
@@ -104,8 +120,10 @@ export const dataDummy = [
     },
     {
         filter: "연합동아리",
+        intro_crewName: "미팅놈들",
         crewName: "미팅놈들",
         crewImg: meetingNom,
+        intro_crewImg: meetingNom,
         join_date: "11월 14일 ~ 11월 30일",
         joining: false,
         simple_intro:"수도권 대학생 연합 맛집탐방동아리",
@@ -119,8 +137,10 @@ export const dataDummy = [
     },
     {
         filter: "연합동아리",
+        intro_crewName: "DoIt",
         crewName: "DoIt",
         crewImg: doIt,
+        intro_crewImg: doIt,
         join_date: "11월 5일 ~ 11월 26일",
         joining: true,
         simple_intro:"Do it 웹 개발 동아리",
@@ -134,8 +154,10 @@ export const dataDummy = [
     },
     {
         filter: "연합동아리",
+        intro_crewName: "미팅놈들",
         crewName: "미팅놈들",
         crewImg: meetingNom,
+        intro_crewImg: meetingNom,
         join_date: "11월 14일 ~ 11월 30일",
         joining: false,
         simple_intro:"모든 곳에 따뜻한 손길이 뻗치는 봉사동아리",
@@ -149,8 +171,10 @@ export const dataDummy = [
     },
     {
         filter: "소모임",
+        intro_crewName: "곰돌이",
         crewName: "곰돌이",
         crewImg: teddyBear,
+        intro_crewImg: teddyBear,
         join_date: "11월 10일 ~ 11월 30일",
         joining: true,
         simple_intro:"같은지역에 거주하는 청년들과 가까워지는 동아리",
@@ -164,8 +188,10 @@ export const dataDummy = [
     },
     {
         filter: "소모임",
+        intro_crewName: "고양이",
         crewName: "고양이",
         crewImg: cat,
+        intro_crewImg: cat,
         join_date: "10월 20일 ~ 11월 2일",
         joining: false,
         simple_intro:"비전공자들고 함께하는 방송댄스를 보고 배우는 동아리",
@@ -180,8 +206,10 @@ export const dataDummy = [
     },
     {
         filter: "소모임",
+        intro_crewName: "곰돌이",
         crewName: "곰돌이",
         crewImg: teddyBear,
+        intro_crewImg: teddyBear,
         join_date: "11월 10일 ~ 11월 30일",
         joining: true,
         simple_intro:"모두 즐겁게 치킨을 뜯을 수 있다는 치킨 전문 동아리",
@@ -195,8 +223,10 @@ export const dataDummy = [
     },
     {
         filter: "소모임",
+        intro_crewName: "고양이",
         crewName: "고양이",
         crewImg: cat,
+        intro_crewImg: cat,
         join_date: "10월 20일 ~ 11월 2일",
         joining: false,
         simple_intro:"대학생이 모여 한 편의 뮤지컬을 제작하는 동아리",
@@ -208,5 +238,59 @@ export const dataDummy = [
         applicationMethod : "구글폼 작성(https://..) " ,
         explanation: "우리 동아리는요..."
 
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "유스호스텔",
+        crewName: "유스호스텔",
+        crewImg: hotel,
+        intro_crewImg: hotel,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"hobby",//취미
+        simple_intro:"여행 동아리",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://cafe.daum.net/hstel",
+        activity_contents:"학술세미나, 자연보호", 
+        qualification:"여행을 좋아하는 사람 누구나", 
+        membershipFee: "50000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "해랑사리우",
+        crewName: "해랑사리우",
+        crewImg: volunteer,
+        intro_crewImg: volunteer,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"hobby",//취미
+        simple_intro:"봉사 동아리",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://cafe.daum.net/haerangsariwoo",
+        activity_contents:"정기수련회, 고아원 및 양로원 방문", 
+        qualification:"저희와 같이 봉사하러 가실래요~", 
+        membershipFee: "5000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "별조각",
+        crewName: "별조각",
+        crewImg: star,
+        intro_crewImg: star,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"hobby",//취미
+        simple_intro:"천체관측 동아리",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://cafe.daum.net/starpiece",
+        activity_contents:"천체관측", 
+        qualification:"별을 사랑하는 사람들이 모여라", 
+        membershipFee: "20000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
     }
 ]
