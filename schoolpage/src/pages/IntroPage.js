@@ -4,6 +4,7 @@ import { dataDummy } from '../dataDummy.js';
 import './IntroPage.css';
 import Dropdown from "../components/Dropdown";
 import {Tab} from '../components/SelectBar.js';
+import banner from'../images/hansung_banner.jpg';
 
 
 function IntroPage() {
@@ -25,12 +26,18 @@ function IntroPage() {
       <>
         <TopMenuBar />
   
-        <div className="centered-container">
-          <ul onClick={() => setView(!view)}>
-            <span className="emphasis-text">{filter} </span> {view ? '⌃' : '⌄'}
-            {view && <Dropdown setView={setView} onFilterChange={handleFilterChange} />}
-          </ul>
-        </div>
+        <div className="banner-container">
+          <div className="banner-image">
+            <img src={banner} alt="Hansung Banner" />
+          </div>
+  
+          <div className="centered-container">
+            <ul onClick={() => setView(!view)}>
+              <span className="emphasis-text">{filter} </span> {view ? '⌃' : '⌄'}
+              {view && <Dropdown setView={setView} onFilterChange={handleFilterChange} />}
+            </ul>
+          </div>
+
   
         
         <div className="content-container">
@@ -39,5 +46,6 @@ function IntroPage() {
       </>
     );
   }
+  
   
   export default IntroPage;

@@ -1,10 +1,42 @@
-.crew-container {
-    position: relative;
-    width: 25.5vw;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: #e0e0e0;
+/*IntroBox.css*/
+.intro-crew-container{
+  position: relative;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  width: 300px; 
+  height: 200px; 
+  padding: 10px; 
+  margin: 20px; 
+
+  justify-content: space-between; /* 요소 사이의 간격 조절 */
+  display: flex;
+
+}
+
+
+.crew-name-overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 241, 241);
+  font-size: 2em;
+}
+
+.intro-crew-container.hovered .crew-name-overlay {
+  opacity: 0;
+}
+
+
+
+
+
+  .intro-crewImg {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .img-slide-container {
@@ -12,36 +44,26 @@
     width: 100%;
 }
 
-.intro_crewImg {
-    width: 100%;
-    height: 80%;
-    display: block;
+
+.img-slide-container:hover .overlay {
+  height: 100%;
 }
+
 
 .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(247, 249, 250, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     overflow: hidden;
     width: 100%;
     height: 0;
     transition: .5s ease;
 }
 
-.img-slide-container:hover .overlay {
-    height: 100%;
-}
-
-.crewImg {
-    width: 100%;
-    height: 200px; /* Set a fixed height for the images */
-    display: block;
-}
-
 .text {
-    color: black; 
+    color: rgb(255, 255, 255); 
     font-size: 17px;
     font-family: 'YourFont'; /* 글꼴 */
     position: absolute;
@@ -50,19 +72,6 @@
     transform: translate(-50%, -65%);
     text-align: center;
 }
-
-.instagram {
-    cursor: pointer;
-    width: 35px; 
-    height: 35px;  
-    margin-right: 5px; /* Instagram 로고와 Blog 로고 사이 간격 조절  */
-}
-.blog {
-    cursor: pointer;
-    width: 32px; 
-    height: 33px; 
-}
-
 
 
 .intro-crewName {
@@ -75,6 +84,21 @@
     padding: 10px;
     text-align: center;
     overflow: hidden;
-    white-space: nowrap;
-    
+}
+
+.intro-simple{
+  display:block;
+  width:280px;
+}
+
+.instagram {
+  cursor: pointer;
+  width: 35px; 
+  height: 35px;  
+  margin-right: 5px; /* Instagram 로고와 Blog 로고 사이 간격 조절  */
+}
+.blog {
+  cursor: pointer;
+  width: 32px; 
+  height: 33px; 
 }

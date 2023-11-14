@@ -1,35 +1,34 @@
 /* Dropdown.css */
 
 ul {
-    
-    position: absolute;
-    top: 120px; /* 원하는 높이로 조절하세요. 예를 들면 '50px'은 상단에서 50px 아래로 이동시킵니다. */
-    left: 50%;
-    transform: translateX(-50%);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #fff; /* 디자인에 맞게 배경색을 설정하세요 */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-    z-index : 2;
-  }
-  .dropdown-container{
-    z-index: 2;
-  }
-  
-  li {
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  li:hover {
-    background-color: #f5f5f5;
-  }
+  position: absolute;
+  top: 120px; 
+  left: 50%;
+  transform: translateX(-50%);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* 디자인에 맞게 배경색을 설정하세요 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-.selected {
-  background-color: #3498db; /* 선택된 항목의 배경색을 변경하세요 */
-  color: #fff; /* 선택된 항목의 글자색을 변경하세요 */
+  
+  z-index : 2;
+}
+.dropdown-container{
+  z-index: 2;
 }
 
-  
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #f5f5f5;
+}
+
+.selected {
+background-color: #3498db; /* 선택된 항목의 배경색을 변경하세요 */
+color: #fff; /* 선택된 항목의 글자색을 변경하세요 */
+}
+

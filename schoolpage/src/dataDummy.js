@@ -8,7 +8,15 @@ import cat from './images/고양이.png';
 import hotel from './images/hotel.jpg';
 import volunteer from './images/volunteer.jpg';
 import star from './images/star.jpg';
-
+import HTM from './images/HTM.jpg';
+import TURTLES from './images/TURTLES.jpg';
+import UP from './images/UP.jpg';
+import camera from './images/camera.jpg';
+import book from './images/book.jpg';
+import movie from './images/movie.jpg';
+import vision from './images/VISION.jpg';
+import eco from './images/eco.jpg';
+import people from './images/people.jpg';
 
 export const dataDummy = [
     {
@@ -55,8 +63,8 @@ export const dataDummy = [
         intro_crewImg: artCrew,
         join_date: "11월 20일 ~ 12월 7일",
         joining: false,
-        info:"academic",//학술
-        simple_intro:"토론 동아리.",
+        info:"perform",//공연예술
+        simple_intro:"민족예술연구회",
         insta:"https://www.instagram.com/thinkmen.co.kr/",
         blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
         activity_contents:"탈춤, 마당극, 풍물을 연습하여 공연", 
@@ -91,13 +99,13 @@ export const dataDummy = [
         intro_crewImg: deulBul,
         join_date: "11월 15일 ~ 11월 30일",
         joining: true,
-        info:"religion",//종교
-        simple_intro:"주님의 십자군이란 뜻의 기독교동아리.",
+        info:"perform",//공연예술
+        simple_intro:"한성대학교 민중 노래패",
         insta:"https://www.instagram.com/bauccc/",
         blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
-        activity_contents:"한성대학교 민중 노래패", 
+        activity_contents:"민족예술연구회", 
         qualification:"노래를 부를 수 있는 사람 누구나", 
-        membershipFee: "15000원", 
+        membershipFee: "55000원", 
         applicationMethod : "구글폼 작성(https://..) " ,
         explanation: "우리 동아리는요..."
     },
@@ -290,6 +298,222 @@ export const dataDummy = [
         activity_contents:"천체관측", 
         qualification:"별을 사랑하는 사람들이 모여라", 
         membershipFee: "20000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "HTM",
+        crewName: "HTM",
+        crewImg: HTM,
+        intro_crewImg: HTM,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"athletic",//체육
+        simple_intro:"테니스 동아리",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://cafe.daum.net/starpiece",
+        activity_contents:"교직원 및 학생대항 학과별 테니스대회", 
+        qualification:"테니스 동아리.", 
+        membershipFee: "50000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "TURTLES",
+        crewName: "TURTLES",
+        crewImg: TURTLES,
+        intro_crewImg: TURTLES,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"athletic",//체육
+        simple_intro:"야구부",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://cafe.daum.net/starpiece",
+        activity_contents:"교내야구대회, 전국 아마야구대회", 
+        qualification:"야구에 대한 관심과 열의만 있는 새내기라면 누구나", 
+        membershipFee: "50000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "UP",
+        crewName: "UP",
+        crewImg: UP,
+        intro_crewImg: UP,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"athletic",//체육
+        simple_intro:"농구",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://cafe.daum.net/starpiece",
+        activity_contents:"농구실기강연, 전국대학생농구대회 참가", 
+        qualification:"농구 초보자도 열정만 있다면", 
+        membershipFee: "30000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "P.I.G",
+        crewName: "P.I.G",
+        crewImg: camera,
+        intro_crewImg: camera,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"art",//평면예술
+        simple_intro:"사진 동아리",
+        insta:"https://www.instagram.com/fieldfire.kr/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"사진 전시회 개최", 
+        qualification:"사진 찍는 것을 좋아하는 사람 누구나", 
+        membershipFee: "50000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요.."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "이무기",
+        crewName: "이무기",
+        crewImg: book,
+        intro_crewImg: book,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"art",//평면예술
+        simple_intro:"한성대 유일의 문학 동아리",
+        insta:"https://www.instagram.com/fieldfire.kr/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"시화전 및 시낭송대회", 
+        qualification:"문학을 사랑하는 사람 누구나", 
+        membershipFee: "40000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요.."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "영화다솜",
+        crewName: "영화다솜",
+        crewImg: movie,
+        intro_crewImg: movie,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"art",//평면예술
+        simple_intro:"영화 제작 동아리",
+        insta:"https://www.instagram.com/fieldfire.kr/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"단편 영화 상영제", 
+        qualification:"영화에 관심있는 사람 누구나", 
+        membershipFee: "10000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요.."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "VISION",
+        crewName: "VISION",
+        crewImg: vision,
+        intro_crewImg: vision,
+        join_date: "11월 20일 ~ 12월 7일",
+        joining: false,
+        info:"academic",//학술
+        simple_intro:"벤처 창업 동아리",
+        insta:"https://www.instagram.com/thinkmen.co.kr/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"세미나 아이템 회의", 
+        qualification:"창업에 관심있는 누구나", 
+        membershipFee: "70000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "경제학연구회",
+        crewName: "경제학연구회",
+        crewImg: eco,
+        intro_crewImg: eco,
+        join_date: "11월 20일 ~ 12월 7일",
+        joining: false,
+        info:"academic",//학술
+        simple_intro:"경제학 연구 동아리",
+        insta:"https://www.instagram.com/thinkmen.co.kr/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"세미나 개최", 
+        qualification:"경제와 연구를 좋아하는 사람", 
+        membershipFee: "10000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "H-LEP",
+        crewName: "H-LEP",
+        crewImg: people,
+        intro_crewImg: people,
+        join_date: "11월 20일 ~ 12월 7일",
+        joining: false,
+        info:"academic",//학술
+        simple_intro:"영어회화",
+        insta:"https://www.instagram.com/thinkmen.co.kr/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"학술토론회", 
+        qualification:"영어회화로 영어실력을 기르고 싶은 사람", 
+        membershipFee: "5000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "CCC",
+        crewName: "CCC",
+        crewImg: deulBul,
+        intro_crewImg: deulBul,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"religion",//종교
+        simple_intro:"주님의 십자군이란 뜻의 기독교동아리.",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"캠퍼스 예배, 아침기도모임", 
+        qualification:"교회다니는 있는 사람 누구나", 
+        membershipFee: "30000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "UBF",
+        crewName: "UBF",
+        crewImg: deulBul,
+        intro_crewImg: deulBul,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"religion",//종교
+        simple_intro:"University Bible Fellowship의 약자",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"일대일 성경공부", 
+        qualification:"성경에 관심이 있는 사람은 누구나", 
+        membershipFee: "40000원", 
+        applicationMethod : "구글폼 작성(https://..) " ,
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
+        intro_crewName: "로사리오",
+        crewName: "로사리오",
+        crewImg: deulBul,
+        intro_crewImg: deulBul,
+        join_date: "11월 15일 ~ 11월 30일",
+        joining: true,
+        info:"religion",//종교
+        simple_intro:"가톨릭 신자들의 동아리",
+        insta:"https://www.instagram.com/bauccc/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"정기총회, 창립제 농촌활동", 
+        qualification:"가톨릭 신자", 
+        membershipFee: "25000원", 
         applicationMethod : "구글폼 작성(https://..) " ,
         explanation: "우리 동아리는요..."
     }
