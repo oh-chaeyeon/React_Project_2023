@@ -22,12 +22,15 @@ p {
 
 .modal-container {
     display: flex;
+   
 }
 
 .modal-content {
     width: 50%;
     text-align: center;
     box-sizing: border-box;
+    
+  
 }
 
 .information {

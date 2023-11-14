@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import TopMenuBar from "../components/TopMenuBar";
 import { dataDummy } from '../dataDummy.js';
 import './IntroPage.css';
-import Banner from '../components/Banner';
 import Dropdown from "../components/Dropdown";
 import {Tab} from '../components/SelectBar.js';
 import banner from'../images/hansung_banner.jpg';
