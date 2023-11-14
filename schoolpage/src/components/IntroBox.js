@@ -3,12 +3,12 @@ import React from 'react';
 import './IntroBox.css';
 
 function IntroBox({ crewData }) {
-    const { crewName, crewImg, simple_intro, insta, blog } = crewData;
+    const { intro_crewName, intro_crewImg, simple_intro, insta, blog } = crewData;
 
     return (
         <div className="crew-container">
             <div className="img-slide-container">
-                <img className="crewImg" src={crewImg} alt={crewName} />
+                <img className="intro_crewImg" src={intro_crewImg} alt={intro_crewName} />
                 <div className="overlay">
                     <div className="text">
                         <p>{simple_intro}</p>
@@ -21,7 +21,7 @@ function IntroBox({ crewData }) {
                     </div>
                 </div>
             </div>
-            <div className="crewName">{crewName}</div>
+            <div className="intro_crewName">{intro_crewName}</div>
         </div>
     );
 }
