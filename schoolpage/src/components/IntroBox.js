@@ -5,7 +5,7 @@ import blog_logo from '../images/blog_logo.png';
 
 
 function IntroBox({ crewData }) {
-    const { crewName, crewImg, simple_intro, insta, blog } = crewData;
+    const { intro_crewName, intro_crewImg, simple_intro, insta, blog } = crewData;
 
     
 

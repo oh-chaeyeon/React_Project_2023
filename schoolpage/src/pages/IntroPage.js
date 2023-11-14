@@ -37,8 +37,9 @@ function IntroPage() {
               {view && <Dropdown setView={setView} onFilterChange={handleFilterChange} />}
             </ul>
           </div>
-        </div>
+
   
+        
         <div className="content-container">
           {filter && <Tab filter={filter} Info={Info}/>}
         </div>

@@ -10,6 +10,7 @@ ul {
   padding: 0;
   background-color: #fff; /* 디자인에 맞게 배경색을 설정하세요 */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
   
   z-index : 2;
 }
