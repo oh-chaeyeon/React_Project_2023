@@ -42,6 +42,7 @@
     width: 100%;
 }
 
+
 .img-slide-container:hover .overlay {
   height: 100%;
 }
@@ -69,6 +70,7 @@
     transform: translate(-50%, -65%);
     text-align: center;
 }
+
 
 .intro-crewName {
     position: absolute;

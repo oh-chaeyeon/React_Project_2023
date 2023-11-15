@@ -43,10 +43,12 @@ const menuArr = [
   { name: '취미봉사', info: 'hobby' },
 ];
 
+
 //선택된 탭 변경하는 함수
 const selectMenuHandler = (index) => {
   clickTab(index);
 };
+
 
 //컴포넌트 렌더링
 return (
@@ -91,4 +93,5 @@ return (
 
   </>
 );
+
 };
