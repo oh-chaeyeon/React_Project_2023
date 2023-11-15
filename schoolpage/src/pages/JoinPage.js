@@ -84,7 +84,7 @@ function JoinPage() {
                         )
                     })
                 }
-               
+
             </div>
             <PopupModal modalOpen={modalOpen} handleModal={handleModal} selectedCrewName={selectedCrewName}/>
         </>

@@ -20,29 +20,36 @@ const ModalPage = ({ selectedCrewName }) => {
     <>
     <div className="modal"> 
     <h2>{selectedCrew.crewName}</h2>
+    <hr></hr>
     <div className="modal-container">
         <div className="modal-content">
             <p> <img id="img" src={selectedCrew.crewImg} alt={selectedCrew.crewName}></img> </p>
         </div>
 
-        <div className="information">
-            <p> 
-                <span class="infor">활동 내용</span>  {selectedCrew.activity_contents} <br></br>
-                <span class="infor">지원 기간</span>   {selectedCrew.join_date} <br></br>
-                <span class="infor">지원 자격</span>   {selectedCrew.qualification} <br></br>
-                <span class="infor">가입비</span>      {selectedCrew.membershipFee} <br></br>
-                <span class="infor">지원 방법</span>   {selectedCrew.applicationMethod} <br></br>
-            </p>
+        <div className="information"> 
+          활동 내용 <br></br>
+          지원 기간 <br></br>
+          지원 자격 <br></br>
+          가입비 <br></br>
+          지원 방법 <br></br>
         </div>
-    </div>
-</div>
+
+         <div className="join">    
+            {selectedCrew.activity_contents} <br></br>
+            {selectedCrew.join_date} <br></br>
+            {selectedCrew.qualification} <br></br>
+            {selectedCrew.membershipFee} <br></br>
+            {selectedCrew.applicationMethod} <br></br>
+          </div>
+    
+      </div>
+    </div> 
+    
     <hr></hr>
-    <p>
-        {selectedCrew.explanation}
-    </p>
-    </>
-  );
+    <p id="explanation"> {selectedCrew.explanation} </p> 
+    </> 
+  ); 
 };
 
-export default ModalPage;
 
+export default ModalPage;

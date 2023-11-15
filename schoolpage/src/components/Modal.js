@@ -1,6 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import ModalPage from '../pages/ModalPage.js';
+import './Modal.css';
 
 const PopupModal = ({ modalOpen, handleModal, selectedCrewName }) => {
   return (
@@ -10,11 +11,16 @@ const PopupModal = ({ modalOpen, handleModal, selectedCrewName }) => {
       ariaHideApp={false}
       contentLabel="Pop up Message"
       shouldCloseOnOverlayClick={false}
+      style={{
+        overlay: {
+          backgroundColor: 'rgba(0, 0, 0, 0.75)' 
+        }
+      }}
     >
       <ModalPage selectedCrewName={selectedCrewName} /> 
 
       <div className="button-container">
-        <button onClick={handleModal}>닫기</button>
+        <button id="close" onClick={handleModal}>x</button>
       </div>
 
     </Modal>
