@@ -8,7 +8,8 @@ export default function CarouselComponent() {
     return (
         <Carousel
             showArrows={true}
-            centerMode={false}
+            centerMode={true}
+            centerSlidePercentage={80}
             showThumbs={false}
             showStatus={false}
             autoPlay={true}

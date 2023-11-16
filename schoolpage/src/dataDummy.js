@@ -93,6 +93,24 @@ export const dataDummy = [
     },
     {
         filter: "교내동아리",
+        intro_crewName: "왕산악",
+        crewName: "왕산악",
+        crewImg: wangSanAk,
+        intro_crewImg: wangSanAk,
+        join_date: "11월 21일 ~ 12월 5일",
+        joining: false,
+        info:"athletic",//체육
+        simple_intro:"패러글라이딩 동아리",
+        insta:"https://www.instagram.com/dypara_official/",
+        blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
+        activity_contents:"버스킹, 학교 행사 등의 공연", 
+        qualification:"악기를 조금 다룰 수 있는 한성대생",
+        membershipFee: "30000원", 
+        applicationMethod : "구글폼 작성(https://..) ",
+        explanation: "우리 동아리는요..."
+    },
+    {
+        filter: "교내동아리",
         intro_crewName: "들불",
         crewName: "들불",
         crewImg: deulBul,
