@@ -1,3 +1,4 @@
+
 .intro-crew-container {
   position: relative;
   border: 1px solid #ddd;
@@ -22,11 +23,13 @@
   font-size: 1.6em;
   z-index: 1;
   opacity: 1;
+
   transition: opacity 0.5s ease;
 }
 
 .intro-crew-container:hover .crew-name-overlay {
   opacity: 0;/*hoverd되면 사라짐*/
+
 }
 
 
@@ -60,7 +63,7 @@
 
 .text {
   color: rgb(255, 255, 255); 
-  font-size: 17px;
+  font-family: 'YourFont';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -79,6 +82,7 @@
   text-align: center;
   overflow: hidden;
   transition: opacity 0.5s ease; 
+
 }
 
 
