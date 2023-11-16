@@ -1,7 +1,4 @@
-/*IntroBox.css*/
-
-
-.intro-crew-container{
+.intro-crew-container {
   position: relative;
   border: 1px solid #ddd;
   overflow: hidden;
@@ -11,91 +8,94 @@
   height: 200px; 
   padding: 10px; 
   margin: 20px; 
-  justify-content: space-between; /* 요소 사이의 간격 조절 */
+  justify-content: space-between;
   display: flex;
 }
-
 
 .crew-name-overlay {
   position: absolute;
   font-family: 'Gowun Dodum';
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(255, 241, 241);
+  color: #fff;
   font-size: 1.6em;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
-.intro-crew-container.hovered .crew-name-overlay {
-  opacity: 0;
+.intro-crew-container:hover .crew-name-overlay {
+  opacity: 0;/*hoverd되면 사라짐*/
 }
 
 
 .intro-crewImg {
-    width: 100%;
-    height: 100%;
-    display: block;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .img-slide-container {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
+  overflow: hidden; 
 }
-
 
 .img-slide-container:hover .overlay {
   height: 100%;
 }
 
-
 .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
 }
 
 .text {
-    color: rgb(255, 255, 255); 
-    font-size: 17px;
-    font-family: 'YourFont'; /* 글꼴 */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -65%);
-    text-align: center;
+  color: rgb(255, 255, 255); 
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  text-align: center;
 }
-
 
 .intro-crewName {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  transition: opacity 0.5s ease; 
 }
 
-.intro-simple{
-  display:block;
-  width:280px;
-  font-family: 'Gowun Dodum'
+
+
+.intro-simple {
+  display: block;
+  width: 280px;
+  font-family: 'Gowun Dodum';
 }
 
 .instagram {
   cursor: pointer;
   width: 35px; 
   height: 35px;  
-  margin-right: 5px; /* Instagram 로고와 Blog 로고 사이 간격 조절  */
+  margin-right: 5px;
 }
+
 .blog {
   cursor: pointer;
   width: 32px; 

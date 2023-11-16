@@ -1,5 +1,3 @@
-/* IntroPage.css */
-
 .banner-container {
   position: relative;
 }
@@ -21,13 +19,13 @@
   text-align: center;
   z-index: 1;
   height: 5vh;
-  margin-bottom: 50px; /* Adjust the margin-bottom as needed */
+  margin-bottom: 50px; 
 
 }
 
 .content-container {
   position: relative;
-  margin-top: 300px; /* Adjust as needed */
+  margin-top: 300px; 
   z-index: 0;
 
 }
@@ -44,7 +42,7 @@ ul {
 .intro-top-image-container {
   width: 1600px;
   height: 700px;
-  background-image: url('../images/slideImage2.jpg'); /* 이미지 경로에 맞게 수정 */
+  background-image: url('../images/slideImage2.jpg'); 
   background-size: cover; 
   background-color: rgba(17, 17, 17, 0.7); 
 }

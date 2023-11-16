@@ -7,8 +7,10 @@ import React from 'react';
 import IntroBox from './IntroBox';
 import { dataDummy } from '../dataDummy';
 
-// TabMenu 스타일드 컴포넌트 정의
 
+
+
+// TabMenu 컴포넌트 정의
 const TabMenu = styled.ul`
   background-color: #4169E1;
   color: rgb(232, 234, 237);
@@ -31,7 +33,6 @@ const Desc = styled.div`//동아리정보
 `;
 
 export const Tab = ({ filter }) => {
-  // 현재 선택된 탭을 관리하는 state와 해당 state를 업데이트하는 함수
 const [currentTab, clickTab] = useState(0);
 
 const menuArr = [
@@ -44,7 +45,7 @@ const menuArr = [
 ];
 
 
-//선택된 탭 변경하는 함수
+//선택된 탭 변경 함수
 const selectMenuHandler = (index) => {
   clickTab(index);
 };

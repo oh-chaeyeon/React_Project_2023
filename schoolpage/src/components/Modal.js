@@ -14,7 +14,23 @@ const PopupModal = ({ modalOpen, handleModal, selectedCrewName }) => {
       style={{
         overlay: {
           backgroundColor: 'rgba(0, 0, 0, 0.75)' 
-        }
+        },
+        content : {
+          display: 'flex',
+          flexDirection: 'column',
+          backgroundColor: 'white',
+          overflow: 'auto',
+          top: '18vh',
+          left: '14vw',
+          right: '14vw',
+          botton: '16vh',
+          WebkitOverflowScrolling: 'touch',
+          outline: 'none',
+          borderRadius: '10px',
+          zIndex:10,
+          padding: '30px',
+
+        },
       }}
     >
       <ModalPage selectedCrewName={selectedCrewName} /> 

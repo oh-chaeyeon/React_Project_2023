@@ -9,7 +9,7 @@ export default function CarouselComponent() {
         <Carousel
             showArrows={true}
             centerMode={true}
-            centerSlidePercentage={80}
+            centerSlidePercentage={65} 
             showThumbs={false}
             showStatus={false}
             autoPlay={true}
@@ -17,7 +17,7 @@ export default function CarouselComponent() {
         >
             {imageData.map((image) => (
                 <div key={image.label}>
-                <img src={image.src} alt={image.label} />
+                    <img src={image.src} alt={image.label} />
                 </div>
             ))}
         </Carousel>

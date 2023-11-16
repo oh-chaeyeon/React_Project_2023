@@ -53,11 +53,7 @@ export const dataDummy = [
         qualification:"노래를 부를 수 있는 사람 누구나", 
         membershipFee: "15000원", 
         applicationMethod : "구글폼 작성(https://..) " ,
-<<<<<<< HEAD
         explanation: "들불은 한성대학교의 민중 노래패입니다. 우리의 이름처럼 밤하늘을 밝히는 들불처럼, 우리 등불은 사회의 어둠을 밝히는 빛이 되고자 합니다. 민중의 목소리를 노래로 표현하며, 모든 이들의 생각과 감정을 담습니다. 우리는 민중 노래뿐만 아니라, 누구든지 자신의 생각을 자유롭게 표현할 수 있는 노래를 부릅니다. 노래는 언어를 넘어서, 우리 모두의 마음을 한데 모으는 힘이 있습니다. 그 힘을 믿고, 우리는 다양한 노래를 통해 사회의 다양한 이슈를 논의하고, 공감하고, 행동으로 옮깁니다. 들불은 노래를 통해 사회적인 문제를 지적하며, 변화를 일으키려 노력합니다. 노래를 통해 우리는 사회적인 불평등과 억압에 맞서며, 공정하고 평등한 세상을 추구합니다. 들불은 노래를 사랑하고, 사회를 사랑하는 사람들이 모여 만든 공간입니다. 우리와 함께 노래하며, 사회를 바라보고, 생각하고, 행동하는 사람이 되어보세요. 여러분의 목소리가 우리의 노래가 될 수 있습니다. 들불에서는 누구나 참여할 수 있습니다. 노래를 사랑하고, 사회를 바라보는 시각을 가진 여러분의 참여를 기다립니다. 함께해요, 들불과 함께."
-=======
-        explanation: "우리 동아리는요.."
->>>>>>> a821074a35c3db38499cea6f6976dd909b098491
     },
     {
         filter: "교내동아리",
@@ -495,7 +491,7 @@ export const dataDummy = [
         joining: true,
         info:"religion",//종교
         simple_intro:"주님의 십자군이란 뜻의 기독교동아리.",
-        insta:"https://www.instagram.com/bauccc/",
+        insta:"https://www.instagram.com/hansungccc/",
         blog:"https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0",
         activity_contents:"캠퍼스 예배, 아침기도모임", 
         qualification:"교회다니는 있는 사람 누구나", 
