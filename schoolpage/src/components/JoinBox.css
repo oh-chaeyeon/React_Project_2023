@@ -15,8 +15,12 @@
 }
 
 .crewName, .joinDate {
-    padding: 8px; 
+    margin-top: 11px;
     border-top: 1px solid #ddd; 
     font-size: 1vw;
     height: 5%;
+}
+
+.crewName{
+    font-weight: 600;
 }

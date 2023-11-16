@@ -13,9 +13,9 @@
 }
 #intro2, #join2 {
   position: fixed; /* 화면에 고정 */
-  bottom: 0; /* 화면의 바닥에 위치 */
-  width: 550px;
-  height: 150px;
+  bottom: 15px; /* 화면의 바닥에 위치 */
+  width: 450px;
+  height: 120px;
   color: white;
   background-color: rgba(192, 192, 192, 0.8);
   border: none;
@@ -26,13 +26,11 @@
 }
 
 #intro2 {
-  font-family: 'Gowun Dodum';
   cursor:pointer;
-  left: calc(50% - 555px); /* 화면 중앙에서 버튼 너비 + 간격의 절반만큼 왼쪽으로 이동 */
+  left: calc(50% - 555px); 
 }
 
 #join2 {
-  font-family: 'Gowun Dodum';
   cursor:pointer;
   left: calc(50% + 20px); /* 화면 중앙에서 5px 오른쪽으로 이동 */
 }
